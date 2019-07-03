@@ -42,7 +42,7 @@ class ListViewPosts extends StatelessWidget {
                     child: Text('${roots[position].desc}'),
                   ),
                   trailing: Icon(Icons.keyboard_arrow_right),
-                  onTap: () => _onTapItem(context, roots[position]),
+                  onTap: () => onTapItem(context, roots[position]),
                   selected: true,
                 ),
               ),
@@ -53,7 +53,7 @@ class ListViewPosts extends StatelessWidget {
     );
   }
 
-  void _onTapItem(BuildContext context, Root post) {
+  void onTapItem(BuildContext context, Root post) {
     Navigator.push(
       context,
       MaterialPageRoute(
