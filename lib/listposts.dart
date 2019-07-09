@@ -4,9 +4,8 @@ import 'model.dart';
 
 class ListViewPosts extends StatelessWidget {
   final List<Root> roots;
-  final List<CardImages> cardImages;
 
-  ListViewPosts({Key key, this.roots, this.cardImages}) : super(key: key);
+  ListViewPosts({Key key, this.roots}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
