@@ -117,24 +117,22 @@ class DetailPageState extends State<DetailPage> {
                                         right: 15.0),
                                     child: new Row(
                                       children: <Widget>[
+                                        // new Container(
+                                        //   padding: const EdgeInsets.only(
+                                        //       right: 10.0),
+                                        //   child: new Icon(
+                                        //     Icons.find_in_page,
+                                        //     color: Colors.grey,
+                                        //   ),
+                                        // ),
+                                        // new Text(
+                                        //   widget.roots.cardSets[0].setRarity,
+                                        //   style: TextStyle(
+                                        //       fontSize: 15.0,
+                                        //       color: Colors.grey),
+                                        // ),
                                         new Container(
-                                          padding: const EdgeInsets.only(
-                                              right: 10.0),
-                                          child: new Icon(
-                                            Icons.find_in_page,
-                                            color: Colors.grey,
-                                          ),
-                                        ),
-                                        new Text(
-                                          widget.roots.cardSets[0].setRarity,
-                                          style: TextStyle(
-                                              fontSize: 15.0,
-                                              fontFamily: 'Quicksand-Light',
-                                              color: Colors.grey),
-                                        ),
-                                        new Container(
-                                          padding: const EdgeInsets.only(
-                                              left: 10.0, right: 10.0),
+                                          padding: const EdgeInsets.only(right: 10.0),
                                           child: new Icon(
                                             Icons.monetization_on,
                                             color: Colors.grey,
@@ -144,7 +142,6 @@ class DetailPageState extends State<DetailPage> {
                                           widget.roots.cardPrices.cardmarketPrice,
                                           style: TextStyle(
                                               fontSize: 15.0,
-                                              fontFamily: 'Quicksand-Light',
                                               color: Colors.grey),
                                         ),
                                       ],
@@ -160,7 +157,6 @@ class DetailPageState extends State<DetailPage> {
                                       widget.roots.desc,
                                       style: TextStyle(
                                         fontSize: 15.0,
-                                        fontFamily: 'Quicksand-Medium',
                                         color: Color(0XFF0A5B75),
                                       ),
                                     ),
